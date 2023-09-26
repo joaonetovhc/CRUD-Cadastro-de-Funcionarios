@@ -1,0 +1,54 @@
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\appsettings.Development.json
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\appsettings.json
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Cadastro de Funcionarios.staticwebassets.runtime.json
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Cadastro de Funcionarios.exe
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Cadastro de Funcionarios.deps.json
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Cadastro de Funcionarios.runtimeconfig.json
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Cadastro de Funcionarios.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Cadastro de Funcionarios.pdb
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\Cadastro de Funcionarios.GeneratedMSBuildEditorConfig.editorconfig
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\Cadastro de Funcionarios.AssemblyInfoInputs.cache
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\Cadastro de Funcionarios.AssemblyInfo.cs
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\Cadastro de Funcionarios.csproj.CoreCompileInputs.cache
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\Cadastro de Funcionarios.MvcApplicationPartsAssemblyInfo.cache
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\Cadastro de Funcionarios.RazorAssemblyInfo.cache
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\Cadastro de Funcionarios.RazorAssemblyInfo.cs
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\staticwebassets\msbuild.Cadastro de Funcionarios.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\staticwebassets\msbuild.build.Cadastro de Funcionarios.props
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Cadastro de Funcionarios.props
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Cadastro de Funcionarios.props
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\staticwebassets.pack.json
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\staticwebassets.build.json
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\staticwebassets.development.json
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\scopedcss\bundle\Cadastro de Funcionarios.styles.css
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\scopedcss\projectbundle\Cadastro de Funcionarios.bundle.scp.css
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\Cadastro de Funcionarios.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\refint\Cadastro de Funcionarios.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\Cadastro de Funcionarios.pdb
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\Cadastro de Funcionarios.genruntimeconfig.cache
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\ref\Cadastro de Funcionarios.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Humanizer.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\MySqlConnector.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\System.CodeDom.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\System.Text.Json.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\Cadastro de Funcionarios.csproj.AssemblyReference.cache
+D:\BNE\CRUD\Cadastro de Funcionarios\obj\Debug\net6.0\Cadastro de Funcionarios.csproj.CopyComplete

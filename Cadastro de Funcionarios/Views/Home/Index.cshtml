@@ -1,0 +1,56 @@
+﻿@model List<FuncionarioModel>
+@{
+    ViewData["Title"] = "Pagina Inicial";
+}
+
+
+<style>
+    .btn-dark {
+        transition: linear transform 0.1s;
+    }
+    .btn-dark:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+    } 
+</style>
+
+<div class="text-center">
+    <h1 class="display-4">Funcionarios cadastrados</h1>
+</div>
+
+<br />
+
+<table class="table"> 
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Função</th>
+            <th scope="col">Salario</th>
+            <th scope="col">Contato </th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <!--laço responsavel por exibir na index todos contatos criados -->
+    <tbody>
+        @if(Model != null && Model.Any())
+        {
+            foreach (FuncionarioModel Dev in Model)
+            {
+                <tr>
+                    <th scope="row">@Dev.Id</th>
+                    <td>@Dev.Nome</td>
+                    <td>@Dev.Funcao</td>
+                    <td>@Dev.Salario</td>
+                    <td>@Dev.Contato</td>
+                    <td>
+                       <div class="btn-group" role="group">
+                            <a style="font-weight:bold;" class="btn btn-dark" asp-route-id="@Dev.Id" asp-controller="Funcionario" asp-action="Editar">Editar</a>
+                            <a style="font-weight:bold; border-left:0;" asp-route-id="@Dev.Id" asp-controller="Funcionario" asp-action="Apagar" class="btn btn-outline-danger">Excluir</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

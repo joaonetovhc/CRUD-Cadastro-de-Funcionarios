@@ -1,0 +1,52 @@
+﻿@model FuncionarioModel
+@{
+    ViewData["Title"] = "Criar Cadastro";
+}
+
+<style>
+    .form-control:focus {
+        border-color: gray; 
+        box-shadow: 0 0 0 0.1rem; 
+    }
+
+    .form-control {
+       border-radius:3px;
+       border-width:1px;
+       border-color:black;
+       font-size:15px;
+       font-weight:bold;
+       
+    }
+</style>
+
+
+<div class="text-center">
+    <h1 class="display-4">Cadastrar funcionario</h1>
+</div>
+
+<form asp-controller="Funcionario" asp-action="Adicionar" method="post">
+
+    <div style="font-weight:bold;" class="form-group">
+        <label for="Nome">Nome</label>
+        <input asp-for="Nome" type="text" class="form-control" placeholder="Digite o nome do funcionario" required/>
+    </div>
+    <br />
+    <div style="font-weight:bold;" class="form-group">
+        <label for="Funcao">Função</label>
+        <input asp-for="Funcao" type="text" class="form-control" placeholder="Digite a função do funcionario" required />
+    </div>
+    <br />
+    <div style="font-weight:bold;" class="form-group">
+        <label for="Salario">Salario</label>
+        <input asp-for="Salario" type="text" class="form-control" placeholder="Digite o salario do funcionario" required />
+    </div>
+    <br />
+    <div style="font-weight:bold;" class="form-group">
+        <label for="Contato">Contato</label>
+        <input asp-for="Contato" type="text" class="form-control" placeholder="Digite o contato do funcionario" required />
+    </div>
+    <br />
+    <button style="font-weight:bold;" type="submit" class="btn btn-dark">Cadastrar</button> 
+
+    <a style="font-weight:bold;" class="btn btn-secondary btn-block" asp-controller="Home" asp-action="Index">Voltar</a>
+</form>

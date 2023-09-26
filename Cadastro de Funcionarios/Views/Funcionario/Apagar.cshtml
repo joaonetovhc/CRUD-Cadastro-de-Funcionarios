@@ -1,0 +1,55 @@
+﻿@model FuncionarioModel
+@{
+    ViewData["Title"] = "Apagar Cadastro";
+}
+
+<style>
+    .btn-dark {
+        transition: linear transform 0.1s;
+    }
+
+        .btn-dark:hover {
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+
+
+</style>
+
+
+
+<div class="text-center">
+    <h1 class="display-4">Excluir Funcionario</h1>
+</div>
+<br />
+<h3>Informações do Funcionario</h3>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Função</th>
+            <th scope="col">Salario</th>
+            <th scope="col">Contato </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+     <tr>
+     <th scope="row">@Model.Id</th>
+     <td>@Model.Nome</td>
+     <td>@Model.Funcao</td>
+     <td>@Model.Salario</td>
+     <td>@Model.Contato</td>
+     </tr>
+    </tbody>
+</table>
+
+
+   
+
+
+<a class="btn btn-dark" role="button" asp-route-id="@Model.Id" asp-controller="Funcionario" asp-action="Delete">Confirmar</a>
+
+<a class="btn btn-secondary" role="button"  asp-controller="Home" asp-action="Index">Cancelar</a>

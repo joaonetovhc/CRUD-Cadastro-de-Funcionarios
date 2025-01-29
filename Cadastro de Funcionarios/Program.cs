@@ -11,8 +11,9 @@ public class Program
         // Add services to the container.
         builder.Services.AddControllersWithViews();
 
-        var connectionString = builder.Configuration.GetConnectionString("DataBase");
-        builder.Services.AddDbContext<BancoContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+        builder.Services.AddEntityFrameworkSqlServer().AddDbContext<BancoContext>
+            (options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
         builder.Services.AddScoped<InterfaceFuncionarioRepos, FuncionarioRepos>();
 
         var app = builder.Build();

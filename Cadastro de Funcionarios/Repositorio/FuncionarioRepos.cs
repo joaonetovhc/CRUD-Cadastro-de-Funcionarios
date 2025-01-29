@@ -1,5 +1,4 @@
 ﻿using Cadastro_de_Funcionarios.DataBase;
-using Cadastro_de_Funcionarios.Migrations;
 using Cadastro_de_Funcionarios.Models;
 
 namespace Cadastro_de_Funcionarios.Repositorio
@@ -32,7 +31,7 @@ namespace Cadastro_de_Funcionarios.Repositorio
             return _bancoContext.Funcionarios.FirstOrDefault(x => x.Id == id);
         }
 
-        // faz a edição do contato e atualiza os dados
+        // faz a edição do funcionario e atualiza os dados
         public FuncionarioModel Atualizar(FuncionarioModel funcionario)
         {
             FuncionarioModel funcionarioDB = EditId(funcionario.Id);

@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Cadastro_de_Funcionarios.Migrations
 {
     [DbContext(typeof(BancoContext))]
-    [Migration("20250128235105_FuncionarioCadastro")]
-    partial class FuncionarioCadastro
+    [Migration("20250130141202_dbFuncionario")]
+    partial class dbFuncionario
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -43,9 +43,8 @@ namespace Cadastro_de_Funcionarios.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Salario")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<decimal>("Salario")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 

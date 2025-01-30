@@ -4,7 +4,7 @@
 
 namespace Cadastro_de_Funcionarios.Migrations
 {
-    public partial class FuncionarioCadastro : Migration
+    public partial class dbFuncionario : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -16,7 +16,7 @@ namespace Cadastro_de_Funcionarios.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Funcao = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Salario = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Salario = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     Contato = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>

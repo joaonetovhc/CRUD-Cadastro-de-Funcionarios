@@ -29,21 +29,25 @@
     <div style="font-weight:bold;" class="form-group">
         <label for="Nome">Nome</label>
         <input asp-for="Nome" type="text" class="form-control" placeholder="Digite o nome do funcionario" required>
+        @Html.ValidationMessageFor(x => x.Nome)
     </div>
     <br />
     <div style="font-weight:bold;" class="form-group">
         <label for="Funcao">Função</label>
         <input asp-for="Funcao" type="text" class="form-control" placeholder="Digite a função do funcionario" required>
+        @Html.ValidationMessageFor(x => x.Funcao)
     </div>
     <br />
     <div style="font-weight:bold;" class="form-group">
         <label for="Salario">Salario</label>
         <input asp-for="Salario" type="text" class="form-control" placeholder="Digite o salario do funcionario" required>
+        @Html.ValidationMessageFor(x => x.Salario)
     </div>
     <br />
     <div style="font-weight:bold;" class="form-group">
         <label for="Contato">Contato</label>
         <input asp-for="Contato" type="text" class="form-control" placeholder="Digite o contato do funcionario" required>
+        @Html.ValidationMessageFor(x => x.Contato)
     </div>
     <br />
     <button style="font-weight:bold;" type="submit" class="btn btn-dark">Alterar</button>

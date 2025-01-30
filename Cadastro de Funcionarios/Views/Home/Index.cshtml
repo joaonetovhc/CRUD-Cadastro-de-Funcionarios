@@ -3,7 +3,6 @@
     ViewData["Title"] = "Pagina Inicial";
 }
 
-
 <style>
     .btn-dark {
         transition: linear transform 0.1s;
@@ -14,13 +13,29 @@
     } 
 </style>
 
+@if(TempData["MensagemSucesso"]!= null)
+{
+    <div class="alert alert-success" role="alert">
+        <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">x</button>
+        @TempData["MensagemSucesso"]
+    </div>
+}
+
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">x</button>
+        @TempData["MensagemErro"]
+    </div>
+}
+
 <div class="text-center">
-    <h1 class="display-4">Funcionarios cadastrados</h1>
+    <h1 class="display-4">Funcionários cadastrados</h1>
 </div>
 
 <br />
-
-<table class="table"> 
+<!--tabela com paginação utilizando jquery DataTable-->
+<table class="table" id="table-funcionarios"> 
     <thead class="thead-dark">
         <tr>
             <th scope="col">#</th>
@@ -31,7 +46,7 @@
             <th scope="col"></th>
         </tr>
     </thead>
-    <!--laço responsavel por exibir na index todos contatos criados -->
+    <!--laço responsavel por exibir na index todos funcionários criados -->
     <tbody>
         @if(Model != null && Model.Any())
         {
@@ -41,7 +56,7 @@
                     <th scope="row">@Dev.Id</th>
                     <td>@Dev.Nome</td>
                     <td>@Dev.Funcao</td>
-                    <td>@Dev.Salario</td>
+                    <td>@($"{Dev.Salario:C}")</td>
                     <td>@Dev.Contato</td>
                     <td>
                        <div class="btn-group" role="group">
